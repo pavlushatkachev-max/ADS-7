@@ -9,7 +9,7 @@ class Train {
     Car *prev;
   };
   int countOp;
-  Car *first;
+  Car *cur;
  public:
   Train();
   ~Train();
