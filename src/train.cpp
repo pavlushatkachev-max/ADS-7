@@ -59,7 +59,6 @@ int Train::getLength() {
             ++dist;
         } while (!here->light);
         here->light = false;
-      
         for (int i = 0; i < dist; ++i)
             goPrev(here);
         if (!here->light)
